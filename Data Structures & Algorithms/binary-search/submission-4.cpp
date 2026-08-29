@@ -6,6 +6,7 @@ public:
             int mid=left+(high-left)/2;
             if(nums[mid]==target){
                 return mid;
+                break;
             }
             else if(nums[mid]<target){
                 left=mid+1;
